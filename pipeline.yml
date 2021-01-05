@@ -20,4 +20,4 @@ jobs:
   - get: tutorial
   - put: hello-world-docker-image
     params:
-      build: docker-images/docker
+      build: tutorial/docker-images/docker
